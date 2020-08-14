@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ea1e952b-8dd2-4615-888d-f1d57a3a2b87" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2c0529a4-294a-4895-817d-2da64b1db109" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -7,7 +7,7 @@
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
     <GenerateInternalTypes>false</GenerateInternalTypes>
-    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <GenerateMessageContracts>true</GenerateMessageContracts>
     <NamespaceMappings />
     <CollectionMappings />
     <GenerateSerializableTypes>true</GenerateSerializableTypes>
@@ -19,10 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="	https://api.softwareavanzado.world/index.php?webserviceClient=administrator&amp;webserviceVersion=1.0.0&amp;option=contact&amp;api=soap&amp;wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address=" https://api.softwareavanzado.world/index.php?webserviceClient=administrator&amp;webserviceVersion=1.0.0&amp;option=contact&amp;api=soap&amp;wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="index.wsdl" MetadataType="Wsdl" ID="e2264908-e085-4768-a739-d85322c92762" SourceId="1" SourceUrl="https://api.softwareavanzado.world/index.php?webserviceClient=administrator&amp;webserviceVersion=1.0.0&amp;option=contact&amp;api=soap&amp;wsdl" />
+    <MetadataFile FileName="index.wsdl" MetadataType="Wsdl" ID="8b3ce119-d7e6-4edd-9efe-b1cae8a14144" SourceId="1" SourceUrl="https://api.softwareavanzado.world/index.php?webserviceClient=administrator&amp;webserviceVersion=1.0.0&amp;option=contact&amp;api=soap&amp;wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
